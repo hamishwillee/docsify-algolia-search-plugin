@@ -72,7 +72,8 @@ function doSearch(value, clearInput = false) {
         query = value;
     }
 
-    searchClient.search(query)
+    searchClient.search(query, algolia.indexes.settings)  //This is just test. Need to make the settings conditional
+    //searchClient.search(query)
         .then(renderResponse)
         .then((html) => {
             $panel.classList.add('show');
