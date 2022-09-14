@@ -16,7 +16,9 @@ Copy the following code into your `index.html` file below the settings
 
 This is pretty cool.
 
-After installing parcel you can do the following to start a server that allows you to then test your changes
+After installing parcel  https://parceljs.org/getting-started/library/
+
+you can do the following to start a server that allows you to then test your changes
 
 ```
 npm start
