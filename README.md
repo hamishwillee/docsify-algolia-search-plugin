@@ -12,6 +12,34 @@ Copy the following code into your `index.html` file below the settings
 <script src="//unpkg.com/docsify-algolia-search-plugin"></script>
 ```
 
+## Dev
+
+This is pretty cool.
+
+After installing parcel you can do the following to start a server that allows you to then test your changes
+
+```
+npm start
+```
+
+Then in your docsify project you can reference it as shown
+
+```html
+  <!-- algolia search: https://www.npmjs.com/package/docsify-algolia-search-plugin
+  
+    <script src="//unpkg.com/docsify-algolia-search-plugin"></script>
+  -->  
+  <script src="http://localhost:1234/index.js"></script>
+```
+
+And build it with
+```
+npm run build
+```
+
+Don't know about deployment yet.
+
+
 ## Options
 
 A full list of configurable options is below.

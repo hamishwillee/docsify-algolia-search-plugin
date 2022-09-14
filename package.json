@@ -18,6 +18,8 @@
     "algoliasearch": "^3.33.0",
     "deepmerge": "^3.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
   "description": "A search plugin for docsify that leverages algolia"
 }
