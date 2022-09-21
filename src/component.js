@@ -72,7 +72,7 @@ function doSearch(value, clearInput = false) {
         query = value;
     }
 
-    searchClient.search(query, algolia.indexes.settings)  //This is just test. Need to make the settings conditional
+    searchClient.search(query, '' /*algolia.indexes.settings */) //This is just test - settings hard coded in using code. Need to make the settings conditional
     //searchClient.search(query)
         .then(renderResponse)
         .then((html) => {
